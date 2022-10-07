@@ -1,3 +1,14 @@
+` bash
+mkdir ~/cxx
+cd ~/cxx
+git clone https://github.com/nothings/stb.git
+git clone https://github.com/eric-buaa-cn/tutorial_stb-image_library_examples.git
+cd tutorial_stb-image_library_examples
+mkdir build && cd build
+cmake -GNinja ..
+cmake --build .
+`
+
 Support code and images for [C Programming - Reading and writing images with the stb_image libraries](https://www.youtube.com/watch?v=1OyQoPCp46o)
 
 Text version of the tutorial https://solarianprogrammer.com/2019/06/10/c-programming-reading-writing-images-stb_image-libraries/
